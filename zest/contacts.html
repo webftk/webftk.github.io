@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Contacts</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<div class="preloader">
+		<div class="spin"></div>
+		<div class="z">Z</div>
+	</div>
+	<aside class="right-aside">
+		<div class="btn_mnu" title="Menu">
+			<div class="btn_row"></div>
+			<div class="btn_row"></div>
+			<div class="btn_row"></div>
+		</div>
+		<div class="right-aside_content">
+			<div class="logo"><img src="img/logo.svg" class="img-svg" alt="Zest"></div>
+			<div class="nav">
+				<ul>
+					<li><a href="index.html"><i class="fa fa-university" title="Home"></i><span>Home</span></a></li>
+					<li><a href="about-us.html"><i class="fa fa-diamond" title="About us"></i><span>About us</span></a></li>
+					<li><a href="portfolio.html"><i class="fa fa-briefcase" title="Portfolio"></i><span>Portfolio</span></a></li>
+					<li><a href="works.html"><i class="fa fa-archive" title="Works"></i><span>Works</span></a></li>
+					<li><a href="photographers.html"><i class="fa fa-camera-retro" title="Photographers"></i><span>Photographers</span></a></li>
+					<li><a href="contacts.html"><i class="fa fa-id-card" title="Contacts"></i><span>Contacts</span></a></li>
+				</ul>
+			</div>
+		</div>			
+	</aside>
+	<div class="content">
+		<div class="logo-main">
+			<a href="index.html"><img src="img/logo-color.svg" class="img-svg" alt="Zest"></a>
+		</div>
+		<div class="heading-wrap">
+			<p>The Zest</p>
+			<h1 class="h1">Contacts</h1>
+		</div>
+		<div class="wrapper">
+			<div class="head" style="background-image: url(img/contacts-bg.jpg);"></div>
+			<div class="container">
+				<div class="contact-content grid">
+					<div class="contact-column-left">
+						<h2 class="h2">Want to join us?</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio facilis veniam sapiente, dolore delectus voluptates, possimus quisquam voluptas est repellat sint eaque magnam consectetur placeat mollitia atque, fugiat iure reiciendis.Tempore modi dolore corrupti, tenetur rem ut beatae ducimus placeat nam inventore voluptatibus, fugiat saepe quia repudiandae cupiditate aliquid cumque, amet ex incidunt excepturi sed. Dicta ipsam at cupiditate, esse.</p>
+						<h2 class="h2">Come to the casting!</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio facilis veniam sapiente, dolore delectus voluptates, possimus quisquam voluptas est repellat sint eaque magnam consectetur placeat mollitia atque, fugiat iure reiciendis.Tempore modi dolore corrupti, tenetur rem ut beatae ducimus placeat nam inventore voluptatibus, fugiat saepe quia repudiandae cupiditate aliquid cumque, amet ex incidunt excepturi sed. Dicta ipsam at cupiditate, esse.</p>
+					</div>
+					<div class="contact-column-right">
+						<div class="contact-info">
+							<div class="contact-info-wrap">
+								<p>101W Beach Pl,<br>Tampa,<br>FL 33606 USA</p>
+							</div>
+							<div class="contact-info-wrap">
+								<a href="#">contact@zest.com</a>
+								<a href="#">T./ +377 52 90 76 42</a>
+								<a href="#">jobs@zest.com</a>
+							</div>
+						</div>
+						<form class="form">
+							<h3 class="h3">Have questions?</h3>
+							<input type="text" placeholder="Your name..">
+							<input type="text" placeholder="Your phone..">
+							<input type="text" placeholder="Your e-mail..">
+							<input type="text" placeholder="Your question..">
+							<button class="btn">Submit<i class="fa fa-envelope-o"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="map" id="map">
+				<script>
+					function initMap() {
+						var uluru = {lat: 27.940932, lng: -82.460890};
+						var map = new google.maps.Map(document.getElementById('map'), {
+							zoom: 19,
+							center: uluru
+						});
+						var marker = new google.maps.Marker({
+							position: uluru,
+							map: map
+						});
+					}
+				</script>
+				<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjk4b_1v90ZDU_ACRk7BxY0rBD8yKLYyQ&callback=initMap">
+			</script>
+		</div>
+	</div>
+	<footer class="second-footer">
+		<div class="second-footer-wrap">
+			<div class="second-footer-item">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo.svg" class="img-svg" alt="Zest"></a>
+				</div>
+			</div>
+			<div class="second-footer-item">
+				<h2 class="h2">Zest<br>La zeste<br>La scorza</h2>
+			</div>
+			<div class="second-footer-item">
+				<h4 class="h4">Address</h4>
+				<p>101W Beach Pl,<br>Tampa,<br>FL 33606 USA</p>
+			</div>
+			<div class="second-footer-item">
+				<h4 class="h4">Contact</h4>
+				<ul class="footer-item-menu">
+					<li>
+						<a href="#">contact@zest.com</a>
+					</li>
+					<li>
+						<a href="#">T./ +377 52 90 76 42</a>
+					</li>
+					<li>
+						<a href="#">jobs@zest.com</a>
+					</li>
+				</ul>
+			</div>
+			<div class="second-footer-item">
+				<h4 class="h4">Follow us</h4>
+				<ul class="footer-item-menu">
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Google Plus</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="second-footer-copy">
+			<p>Copyright © 2018 All rights reserved</p>
+		</div>
+	</footer>
+</div>
+<!-- /.content -->
+
+
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
