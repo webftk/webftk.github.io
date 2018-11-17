@@ -1,0 +1,71 @@
+// Font vars
+$default-font: "avant-grid", sans-serif
+
+// Color vars 
+$accent: #FEC30D
+
+$gutter: 1.04vmax
+
+@keyframes spin
+	from
+		width: 0.1vmax
+		height: 0.1vmax
+		border-radius: 50%
+		border: 0.1vmax solid #fff
+		background-color: #000
+		transform: rotate(0deg) translate(-50%,-50%)
+		top: 50%
+		left: 50%
+	70%
+		width: 8vmax
+		height: 8vmax
+		border-radius: 0
+		border: 0.5vmax solid #fff
+		background-color: #000
+		transform: rotate(720deg) translate(-50%,-50%)
+		top: 50%
+		left: 50%
+		opacity: 1
+	to
+		width: 8vmax
+		height: 8vmax
+		border-radius: 0
+		border: 0.5vmax solid #000 
+		background-color: #fff
+		transform: translate(-50%,-50%)
+		top: 50%
+		left: 50%
+		opacity: 0
+		
+
+@keyframes animscroll1
+  0%
+    top: 0px
+    left: 0px
+
+  30%
+    top: 1.04vmax
+    left: 1.04vmax
+
+  85%
+    top: 0px
+    left: 0px
+
+  100%
+    top: 0px
+    left: 0px
+
+
+
+@keyframes animscroll2
+  0%
+    top: 0px
+    left: 0px
+
+  35%
+    top: 0.78vmax
+    left: 0.78vmax
+
+  100%
+    top: 0px
+    left: 0px
